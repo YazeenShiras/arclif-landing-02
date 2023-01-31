@@ -46,16 +46,18 @@ export default function Home() {
         <section className={styles.sectionOne}>
           <div className={styles.container_sectionOne}>
             <div className={styles.sectionOne_left}>
-              <h1 className={playfairDisplay.className}>Construction make easy with arclif</h1>
+              <h1 className={playfairDisplay.className}>
+                Design and build your home with ease!
+              </h1>
               <span className={styles.animationOne}></span>
-              <h2 className={playfairDisplay.className}>Online Architecture Platform</h2>
-              <h3 className={playfairDisplay.className}>For a better tomorrow.</h3>
+              <h2 className={playfairDisplay.className}>
+                Choose the best architects near you...
+              </h2>
+              <h3 className={playfairDisplay.className}>Try now!</h3>
               <p>
-                Arclif, India&apos;s best online architecture platform, is a platform for connecting professionals in
-                the architecture, engineering, and construction industries, as well as building material suppliers with
-                home seekers in order to streamline the construction process and make it easier. ARCLIF provides tools
-                and resources that can help professionals work more efficiently and effectively in these industries,
-                ultimately benefiting homeowners and contributing to a better tomorrow.
+                Arclif is India’s first online platform for connecting common
+                people to the AEC industry.our aim is to make their decisions
+                easier through out the period of house design and construction.
               </p>
               <div className={styles.buttonContainer_sectionOne}>
                 <button className={styles.goToService_Button}>
@@ -63,63 +65,133 @@ export default function Home() {
                 </button>
                 <button className={styles.contactButton}>
                   <p>Contact</p>
-                  <FontAwesomeIcon icon={faRightLong} className={styles.arrowContact} />
+                  <FontAwesomeIcon
+                    icon={faRightLong}
+                    className={styles.arrowContact}
+                  />
                 </button>
               </div>
             </div>
             <div className={styles.sectionOne_right}>
-              <img src="/sectionOne/gif1.gif" alt="gif" className={styles.gifSectionOne} />
+              <img
+                src="/sectionOne/gif1.gif"
+                alt="gif"
+                className={styles.gifSectionOne}
+              />
             </div>
           </div>
         </section>
         <section className={styles.sectionTwo}>
           <div className={styles.outer_container_sectionTwo}>
-            <div onClick={agrihaClick} className={styles.gradient_sectionTwo}></div>
+            <div
+              onClick={agrihaClick}
+              className={styles.gradient_sectionTwo}
+            ></div>
             <div className={styles.cardContainer_sectionTwo}>
               <div onClick={agrihaClick} className={styles.card1_sectionTwo}>
-                <img src="/sectionTwo/test.jpg" alt="image" className={styles.vert_move} />
+                <img
+                  src="/sectionTwo/test.jpg"
+                  alt="image"
+                  className={styles.vert_move}
+                />
               </div>
               <div onClick={agrihaClick} className={styles.card2_sectionTwo}>
-                <img src="/sectionTwo/test2.jpg" alt="image" className={styles.vert_move} />
+                <img
+                  src="/sectionTwo/test2.jpg"
+                  alt="image"
+                  className={styles.vert_move}
+                />
               </div>
               <div onClick={agrihaClick} className={styles.card1_sectionTwo}>
-                <img src="/sectionTwo/test3.jpg" alt="image" className={styles.vert_move} />
+                <img
+                  src="/sectionTwo/test3.jpg"
+                  alt="image"
+                  className={styles.vert_move}
+                />
               </div>
               <div onClick={agrihaClick} className={styles.card2_sectionTwo}>
-                <img src="/sectionTwo/test4.jpg" alt="image" className={styles.vert_move} />
+                <img
+                  src="/sectionTwo/test4.jpg"
+                  alt="image"
+                  className={styles.vert_move}
+                />
               </div>
               <div onClick={agrihaClick} className={styles.card1_sectionTwo}>
-                <img src="/sectionTwo/test5.jpg" alt="image" className={styles.vert_move} />
+                <img
+                  src="/sectionTwo/test5.jpg"
+                  alt="image"
+                  className={styles.vert_move}
+                />
               </div>
               <div onClick={agrihaClick} className={styles.card2_sectionTwo}>
-                <img src="/sectionTwo/test6.jpg" alt="image" className={styles.vert_move} />
+                <img
+                  src="/sectionTwo/test6.jpg"
+                  alt="image"
+                  className={styles.vert_move}
+                />
               </div>
               <div onClick={agrihaClick} className={styles.card1_sectionTwo}>
-                <img src="/sectionTwo/test7.jpg" alt="image" className={styles.vert_move} />
+                <img
+                  src="/sectionTwo/test7.jpg"
+                  alt="image"
+                  className={styles.vert_move}
+                />
               </div>
               <div onClick={agrihaClick} className={styles.card2_sectionTwo}>
-                <img src="/sectionTwo/test3.jpg" alt="image" className={styles.vert_move} />
+                <img
+                  src="/sectionTwo/test3.jpg"
+                  alt="image"
+                  className={styles.vert_move}
+                />
               </div>
               <div onClick={agrihaClick} className={styles.card1_sectionTwo}>
-                <img src="/sectionTwo/test2.jpg" alt="image" className={styles.vert_move} />
+                <img
+                  src="/sectionTwo/test2.jpg"
+                  alt="image"
+                  className={styles.vert_move}
+                />
               </div>
               <div onClick={agrihaClick} className={styles.card2_sectionTwo}>
-                <img src="/sectionTwo/test6.jpg" alt="image" className={styles.vert_move} />
+                <img
+                  src="/sectionTwo/test6.jpg"
+                  alt="image"
+                  className={styles.vert_move}
+                />
               </div>
               <div onClick={agrihaClick} className={styles.card1_sectionTwo}>
-                <img src="/sectionTwo/test7.jpg" alt="image" className={styles.vert_move} />
+                <img
+                  src="/sectionTwo/test7.jpg"
+                  alt="image"
+                  className={styles.vert_move}
+                />
               </div>
               <div onClick={agrihaClick} className={styles.card2_sectionTwo}>
-                <img src="/sectionTwo/test3.jpg" alt="image" className={styles.vert_move} />
+                <img
+                  src="/sectionTwo/test3.jpg"
+                  alt="image"
+                  className={styles.vert_move}
+                />
               </div>
               <div onClick={agrihaClick} className={styles.card1_sectionTwo}>
-                <img src="/sectionTwo/test2.jpg" alt="image" className={styles.vert_move} />
+                <img
+                  src="/sectionTwo/test2.jpg"
+                  alt="image"
+                  className={styles.vert_move}
+                />
               </div>
               <div onClick={agrihaClick} className={styles.card2_sectionTwo}>
-                <img src="/sectionTwo/test6.jpg" alt="image" className={styles.vert_move} />
+                <img
+                  src="/sectionTwo/test6.jpg"
+                  alt="image"
+                  className={styles.vert_move}
+                />
               </div>
               <div onClick={agrihaClick} className={styles.card1_sectionTwo}>
-                <img src="/sectionTwo/test7.jpg" alt="image" className={styles.vert_move} />
+                <img
+                  src="/sectionTwo/test7.jpg"
+                  alt="image"
+                  className={styles.vert_move}
+                />
               </div>
             </div>
           </div>
@@ -200,8 +272,12 @@ export default function Home() {
         <section className={styles.sectionThree}>
           <div className={styles.container_sectionThree}>
             <div className={styles.title_sectionThree}>
-              <h2 className={playfairDisplay.className}>Explore Design Ideas</h2>
-              <h3>An online platform for connecting architects and home seekers</h3>
+              <h2 className={playfairDisplay.className}>
+                Explore Design Ideas
+              </h2>
+              <h3>
+                An online platform for connecting architects and home seekers
+              </h3>
             </div>
             <div className={styles.cards_sectionThree}>
               <div className={styles.card_sectionThree}>
@@ -248,12 +324,10 @@ export default function Home() {
               </div>
             </div>
             <p>
-              The process of getting work is more difficult in the field of architecture. By adding your relevant work
-              to our online architecture service platform, you will be able to find the right home seekers. <br />
-              Finding the right architect for your project can be difficult. A talented architect should be able to
-              inspire you and come up with innovative ideas to create a home you will love. Arclif is an online platform
-              where you can find an architect for your dream home and in addition, architects can brand their work on
-              the platform.
+              Arclif helps to bridge the gap between home owners ,
+              architects,engineers,contractors , wholesaler’s and manufacturers
+              by creating a common platform to interact ,share ideas and
+              knowledge along with reducing costs and improving build quality.
             </p>
             <button className={styles.exploreMoreButton}>
               <p>Explore more</p>
@@ -276,10 +350,13 @@ export default function Home() {
               </div> */}
             </div>
             <div className={styles.right_sectionFour}>
-              <h2 className={playfairDisplay.className}>Construction make easy</h2>
+              <h2 className={playfairDisplay.className}>
+                Construction make easy
+              </h2>
               <h3>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. lorem Ipsum has been the
-                industry&apos;s standard dummy text.
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. lorem Ipsum has been the industry&apos;s standard
+                dummy text.
               </h3>
               <div className={styles.learnMoreButton_sectionFour}>
                 Learn more{" "}
@@ -298,7 +375,9 @@ export default function Home() {
         <section className={styles.sectionFive}>
           <div className={styles.container_sectionFive}>
             <div className={styles.title_sectionFive}>
-              <h2 className={playfairDisplay.className}>What`s inside in Arclif</h2>
+              <h2 className={playfairDisplay.className}>
+                What`s inside in Arclif
+              </h2>
               <h3>Lorem Ipsum is simply dummy text of the printing.</h3>
             </div>
             <div className={styles.cards_sectionFive}>
@@ -313,7 +392,10 @@ export default function Home() {
                 />
                 <div className={styles.cardTitle_sectionFive}>
                   <h3 className={playfairDisplay.className}>Lorem Ipsum</h3>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
                 </div>
               </div>
               <div className={styles.card_sectionFive}>
@@ -327,7 +409,10 @@ export default function Home() {
                 />
                 <div className={styles.cardTitle_sectionFive}>
                   <h3 className={playfairDisplay.className}>Arclif Magazine</h3>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
                 </div>
               </div>
               <div className={styles.card_sectionFive}>
@@ -341,7 +426,10 @@ export default function Home() {
                 />
                 <div className={styles.cardTitle_sectionFive}>
                   <h3 className={playfairDisplay.className}>Project section</h3>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
                 </div>
               </div>
             </div>
@@ -365,9 +453,10 @@ export default function Home() {
               />
             </div>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. lorem Ipsum has been the
-              industry&apos;s standard dummy text. when an unknown printer took a galley of type and scrambled it to
-              make a type specimen book.
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. lorem Ipsum has been the industry&apos;s standard dummy
+              text. when an unknown printer took a galley of type and scrambled
+              it to make a type specimen book.
             </p>
             <div className={styles.quoteClose_sectionSix}>
               <Image
@@ -406,7 +495,9 @@ export default function Home() {
         <section className={styles.sectionSeven}>
           <div className={styles.container_sectionSeven}>
             <div className={styles.title_sectionSeven}>
-              <h2 className={playfairDisplay.className}>Reads Our Latest Blog</h2>
+              <h2 className={playfairDisplay.className}>
+                Reads Our Latest Blog
+              </h2>
               <h3>See what our valuable customers are saying</h3>
             </div>
             <div className={styles.cardConatiner_sectionSeven}>
@@ -420,10 +511,13 @@ export default function Home() {
                   priority
                 />
                 <p>26 May`22</p>
-                <h4>Historic Home: 1901 Samuel and Pauline Peery HouseCalifornia Clipper were faced </h4>
+                <h4>
+                  Historic Home: 1901 Samuel and Pauline Peery HouseCalifornia
+                  Clipper were faced{" "}
+                </h4>
                 <h5>
-                  Scrambled it to make a type specimen book Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  Scrambled it to make a type specimen book Lorem Ipsum is
+                  simply dummy text of the printing and typesetting industry.
                 </h5>
               </div>
               <div className={styles.card_sectionSeven}>
@@ -436,10 +530,13 @@ export default function Home() {
                   priority
                 />
                 <p>26 May`22</p>
-                <h4>Historic Home: 1901 Samuel and Pauline Peery HouseCalifornia Clipper were faced </h4>
+                <h4>
+                  Historic Home: 1901 Samuel and Pauline Peery HouseCalifornia
+                  Clipper were faced{" "}
+                </h4>
                 <h5>
-                  Scrambled it to make a type specimen book Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  Scrambled it to make a type specimen book Lorem Ipsum is
+                  simply dummy text of the printing and typesetting industry.
                 </h5>
               </div>
               <div className={styles.card_sectionSeven}>
@@ -452,10 +549,13 @@ export default function Home() {
                   priority
                 />
                 <p>26 May`22</p>
-                <h4>Historic Home: 1901 Samuel and Pauline Peery HouseCalifornia Clipper were faced </h4>
+                <h4>
+                  Historic Home: 1901 Samuel and Pauline Peery HouseCalifornia
+                  Clipper were faced{" "}
+                </h4>
                 <h5>
-                  Scrambled it to make a type specimen book Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  Scrambled it to make a type specimen book Lorem Ipsum is
+                  simply dummy text of the printing and typesetting industry.
                 </h5>
               </div>
               <div className={styles.card_sectionSeven}>
@@ -468,10 +568,13 @@ export default function Home() {
                   priority
                 />
                 <p>26 May`22</p>
-                <h4>Historic Home: 1901 Samuel and Pauline Peery HouseCalifornia Clipper were faced </h4>
+                <h4>
+                  Historic Home: 1901 Samuel and Pauline Peery HouseCalifornia
+                  Clipper were faced{" "}
+                </h4>
                 <h5>
-                  Scrambled it to make a type specimen book Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  Scrambled it to make a type specimen book Lorem Ipsum is
+                  simply dummy text of the printing and typesetting industry.
                 </h5>
               </div>
               <div className={styles.card_sectionSeven}>
@@ -484,10 +587,13 @@ export default function Home() {
                   priority
                 />
                 <p>26 May`22</p>
-                <h4>Historic Home: 1901 Samuel and Pauline Peery HouseCalifornia Clipper were faced </h4>
+                <h4>
+                  Historic Home: 1901 Samuel and Pauline Peery HouseCalifornia
+                  Clipper were faced{" "}
+                </h4>
                 <h5>
-                  Scrambled it to make a type specimen book Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  Scrambled it to make a type specimen book Lorem Ipsum is
+                  simply dummy text of the printing and typesetting industry.
                 </h5>
               </div>
               <div className={styles.card_sectionSeven}>
@@ -500,14 +606,19 @@ export default function Home() {
                   priority
                 />
                 <p>26 May`22</p>
-                <h4>Historic Home: 1901 Samuel and Pauline Peery HouseCalifornia Clipper were faced </h4>
+                <h4>
+                  Historic Home: 1901 Samuel and Pauline Peery HouseCalifornia
+                  Clipper were faced{" "}
+                </h4>
                 <h5>
-                  Scrambled it to make a type specimen book Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  Scrambled it to make a type specimen book Lorem Ipsum is
+                  simply dummy text of the printing and typesetting industry.
                 </h5>
               </div>
             </div>
-            <button className={styles.readMoreButton_sectionSeven}>Read More</button>
+            <button className={styles.readMoreButton_sectionSeven}>
+              Read More
+            </button>
           </div>
         </section>
         <section className={styles.sectionEight}>
