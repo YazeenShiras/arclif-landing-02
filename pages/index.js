@@ -2,16 +2,31 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Playfair_Display } from "@next/font/google";
-
+import { Inter } from "@next/font/google";
 import styles from "./index.module.css";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Contact from "../components/Contact";
+import { useRouter } from "next/router";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faRightLong } from "@fortawesome/free-solid-svg-icons";
 
 const playfairDisplay = Playfair_Display({
   weight: "400",
   subsets: ["latin"],
 });
 
+const inter = Inter({
+  subsets: ["latin"],
+});
+
 export default function Home() {
+  const router = useRouter();
+
+  const agrihaClick = () => {
+    router.push("https://agriha.com");
+  };
+
   return (
     <>
       <Head>
@@ -31,77 +46,154 @@ export default function Home() {
         <section className={styles.sectionOne}>
           <div className={styles.container_sectionOne}>
             <div className={styles.sectionOne_left}>
-              <h4 className={playfairDisplay.className}>Lorem Ipsum</h4>
+              <h1 className={playfairDisplay.className}>Construction make easy with arclif</h1>
               <span className={styles.animationOne}></span>
-              <h2 className={playfairDisplay.className}>Construction make easy with arclif</h2>
+              <h2 className={playfairDisplay.className}>Online Architecture Platform</h2>
               <h3 className={playfairDisplay.className}>For a better tomorrow.</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. lorem Ipsum has been the
-                industry&apos;s standard dummy text. when an unknown printer took a galley of type and scrambled it.
+                Arclif, India&apos;s best online architecture platform, is a platform for connecting professionals in
+                the architecture, engineering, and construction industries, as well as building material suppliers with
+                home seekers in order to streamline the construction process and make it easier. ARCLIF provides tools
+                and resources that can help professionals work more efficiently and effectively in these industries,
+                ultimately benefiting homeowners and contributing to a better tomorrow.
               </p>
-              <button className={styles.contactButton}>
-                <p>Contact</p>
-                <Image
-                  className={styles.arrowContact}
-                  src="/sectionOne/contact.svg"
-                  alt="arrow"
-                  width={11}
-                  height={10}
-                  priority
-                />
-              </button>
+              <div className={styles.buttonContainer_sectionOne}>
+                <button className={styles.goToService_Button}>
+                  <p>Go to service</p>
+                </button>
+                <button className={styles.contactButton}>
+                  <p>Contact</p>
+                  <FontAwesomeIcon icon={faRightLong} className={styles.arrowContact} />
+                </button>
+              </div>
             </div>
             <div className={styles.sectionOne_right}>
-              <Image
-                className={styles.gifSectionOne}
-                src="/sectionOne/gif1.gif"
-                alt="gif"
-                width={410}
-                height={410}
-                priority
-              />
+              <img src="/sectionOne/gif1.gif" alt="gif" className={styles.gifSectionOne} />
             </div>
           </div>
         </section>
         <section className={styles.sectionTwo}>
-          <div className={styles.scrollDown_container}>
-            <Image
-              className={styles.gifSectionTwo}
-              src="/sectionTwo/gif1.gif"
-              alt="gif"
-              width={26}
-              height={19}
-              priority
-            />
+          <div className={styles.outer_container_sectionTwo}>
+            <div onClick={agrihaClick} className={styles.gradient_sectionTwo}></div>
+            <div className={styles.cardContainer_sectionTwo}>
+              <div onClick={agrihaClick} className={styles.card1_sectionTwo}>
+                <img src="/sectionTwo/test.jpg" alt="image" className={styles.vert_move} />
+              </div>
+              <div onClick={agrihaClick} className={styles.card2_sectionTwo}>
+                <img src="/sectionTwo/test2.jpg" alt="image" className={styles.vert_move} />
+              </div>
+              <div onClick={agrihaClick} className={styles.card1_sectionTwo}>
+                <img src="/sectionTwo/test3.jpg" alt="image" className={styles.vert_move} />
+              </div>
+              <div onClick={agrihaClick} className={styles.card2_sectionTwo}>
+                <img src="/sectionTwo/test4.jpg" alt="image" className={styles.vert_move} />
+              </div>
+              <div onClick={agrihaClick} className={styles.card1_sectionTwo}>
+                <img src="/sectionTwo/test5.jpg" alt="image" className={styles.vert_move} />
+              </div>
+              <div onClick={agrihaClick} className={styles.card2_sectionTwo}>
+                <img src="/sectionTwo/test6.jpg" alt="image" className={styles.vert_move} />
+              </div>
+              <div onClick={agrihaClick} className={styles.card1_sectionTwo}>
+                <img src="/sectionTwo/test7.jpg" alt="image" className={styles.vert_move} />
+              </div>
+              <div onClick={agrihaClick} className={styles.card2_sectionTwo}>
+                <img src="/sectionTwo/test3.jpg" alt="image" className={styles.vert_move} />
+              </div>
+              <div onClick={agrihaClick} className={styles.card1_sectionTwo}>
+                <img src="/sectionTwo/test2.jpg" alt="image" className={styles.vert_move} />
+              </div>
+              <div onClick={agrihaClick} className={styles.card2_sectionTwo}>
+                <img src="/sectionTwo/test6.jpg" alt="image" className={styles.vert_move} />
+              </div>
+              <div onClick={agrihaClick} className={styles.card1_sectionTwo}>
+                <img src="/sectionTwo/test7.jpg" alt="image" className={styles.vert_move} />
+              </div>
+              <div onClick={agrihaClick} className={styles.card2_sectionTwo}>
+                <img src="/sectionTwo/test3.jpg" alt="image" className={styles.vert_move} />
+              </div>
+              <div onClick={agrihaClick} className={styles.card1_sectionTwo}>
+                <img src="/sectionTwo/test2.jpg" alt="image" className={styles.vert_move} />
+              </div>
+              <div onClick={agrihaClick} className={styles.card2_sectionTwo}>
+                <img src="/sectionTwo/test6.jpg" alt="image" className={styles.vert_move} />
+              </div>
+              <div onClick={agrihaClick} className={styles.card1_sectionTwo}>
+                <img src="/sectionTwo/test7.jpg" alt="image" className={styles.vert_move} />
+              </div>
+            </div>
           </div>
           <div className={styles.container_sectionTwo}>
-            <div className={styles.sectionTwo_Left}>
-              <Image
-                className={styles.imgSectionTwo}
-                src="/sectionTwo/img1.svg"
-                alt="arrow"
-                width={373}
-                height={281}
-                priority
-              />
-            </div>
-            <div className={styles.sectionTwo_right}>
-              <h2 className={playfairDisplay.className}>Construction make easy</h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. lorem Ipsum has been the
-                industry&apos;s standard dummy text.
-              </p>
-              <button className={styles.learnMoreButton}>
-                <p>Learn more</p>
-                <Image
-                  className={styles.arrowLearnMore}
-                  src="/sectionTwo/learnMore.svg"
-                  alt="arrow"
-                  width={11}
-                  height={10}
-                  priority
-                />
-              </button>
+            <div className={styles.contentConatiner_sectionTwo}>
+              <div className={styles.content_sectionTwo} onClick={agrihaClick}>
+                <div className={styles.eclipse_green_sectionTwo}>
+                  <Image
+                    className={styles.agrihaLogo}
+                    src="/sectionOne/agrihaIcon.svg"
+                    alt="gif"
+                    width={17}
+                    height={15}
+                    priority
+                  />
+                </div>
+                <div className={styles.text_content_sectionTwo}>
+                  <Image
+                    className={styles.arclifText}
+                    src="/sectionOne/arclifText.svg"
+                    alt="gif"
+                    width={53}
+                    height={12}
+                    priority
+                  />
+                  <p className={inter.className}>Agriha Services</p>
+                </div>
+              </div>
+              <div className={styles.content_sectionTwo}>
+                <div className={styles.eclipse_gray_sectionTwo}>
+                  <Image
+                    className={styles.agrihaLogo}
+                    src="/sectionOne/ecom.svg"
+                    alt="gif"
+                    width={17}
+                    height={15}
+                    priority
+                  />
+                </div>
+                <div className={styles.text_content_sectionTwo2}>
+                  <Image
+                    className={styles.arclifText}
+                    src="/sectionOne/arclifText2.svg"
+                    alt="gif"
+                    width={53}
+                    height={12}
+                    priority
+                  />
+                  <p className={inter.className}>Agriha Services</p>
+                </div>
+              </div>
+              <div className={styles.content_sectionTwo}>
+                <div className={styles.eclipse_gray_sectionTwo}>
+                  <Image
+                    className={styles.agrihaLogo}
+                    src="/sectionOne/arch.svg"
+                    alt="gif"
+                    width={17}
+                    height={15}
+                    priority
+                  />
+                </div>
+                <div className={styles.text_content_sectionTwo2}>
+                  <Image
+                    className={styles.arclifText}
+                    src="/sectionOne/arclifText2.svg"
+                    alt="gif"
+                    width={53}
+                    height={12}
+                    priority
+                  />
+                  <p className={inter.className}>Agriha Services</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -109,7 +201,7 @@ export default function Home() {
           <div className={styles.container_sectionThree}>
             <div className={styles.title_sectionThree}>
               <h2 className={playfairDisplay.className}>Explore Design Ideas</h2>
-              <h3>Lorem Ipsum is simply dummy text of the printing</h3>
+              <h3>An online platform for connecting architects and home seekers</h3>
             </div>
             <div className={styles.cards_sectionThree}>
               <div className={styles.card_sectionThree}>
@@ -123,7 +215,7 @@ export default function Home() {
                 />
                 <div className={styles.title_card_sectionThree}>
                   <h4>Find the best Architect</h4>
-                  <h5>Lorem Ipsum is simply dummy.</h5>
+                  <h5>Architects get the visibility they deserve</h5>
                 </div>
               </div>
               <div className={styles.card_sectionThree}>
@@ -137,7 +229,7 @@ export default function Home() {
                 />
                 <div className={styles.title_card_sectionThree}>
                   <h4>Explore more design ideas</h4>
-                  <h5>Lorem Ipsum is simply.</h5>
+                  <h5>Find your home designs with Arclif</h5>
                 </div>
               </div>
               <div className={styles.card_sectionThree}>
@@ -151,14 +243,17 @@ export default function Home() {
                 />
                 <div className={styles.title_card_sectionThree}>
                   <h4>Make online projects</h4>
-                  <h5>Lorem Ipsum is simply dummy.</h5>
+                  <h5>A marketplace of architects and home seekers</h5>
                 </div>
               </div>
             </div>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. lorem Ipsum has been the
-              industry&apos;s standard dummy text.when an unknown printer took a galley of type and scrambled it to make
-              a type specimen book.
+              The process of getting work is more difficult in the field of architecture. By adding your relevant work
+              to our online architecture service platform, you will be able to find the right home seekers. <br />
+              Finding the right architect for your project can be difficult. A talented architect should be able to
+              inspire you and come up with innovative ideas to create a home you will love. Arclif is an online platform
+              where you can find an architect for your dream home and in addition, architects can brand their work on
+              the platform.
             </p>
             <button className={styles.exploreMoreButton}>
               <p>Explore more</p>
@@ -176,57 +271,26 @@ export default function Home() {
         <section className={styles.sectionFour}>
           <div className={styles.container_sectionFour}>
             <div className={styles.left_sectionFour}>
-              {/* <Image
-                className={styles.img1_sectionFour}
-                src="/sectionFour/img1.svg"
-                alt="img"
-                width={594}
-                height={424}
-                priority
-              /> */}
-              <div className={styles.imageContainer_sectionFour}>
+              {/* <div className={styles.imageContainer_sectionFour}>
                 <img src="/sectionFour/img1.svg" alt="" />
-              </div>
+              </div> */}
             </div>
             <div className={styles.right_sectionFour}>
-              <div className={styles.right_sectionFour_One}>
+              <h2 className={playfairDisplay.className}>Construction make easy</h2>
+              <h3>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. lorem Ipsum has been the
+                industry&apos;s standard dummy text.
+              </h3>
+              <div className={styles.learnMoreButton_sectionFour}>
+                Learn more{" "}
                 <Image
-                  className={styles.qrCode}
-                  src="/sectionFour/qr.svg"
-                  alt="QR Code"
-                  width={43}
-                  height={43}
+                  className={styles.arrow_sectionFour}
+                  src="/sectionFour/arrow.svg"
+                  alt="arrow"
+                  width={11}
+                  height={10}
                   priority
                 />
-                <p>Show QR code</p>
-              </div>
-              <h2 className={playfairDisplay.className}>
-                Join with Arclif Community to start finding Ideas & Professionals
-              </h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-              <div className={styles.appRedirect_container}>
-                <div className={styles.googlePlay_container}>
-                  <Image
-                    className={styles.googlePlay}
-                    src="/sectionFour/googlePlay.svg"
-                    alt="googlePlay"
-                    width={31}
-                    height={33}
-                    priority
-                  />
-                  <p>Google Play</p>
-                </div>
-                <div className={styles.appStore_container}>
-                  <Image
-                    className={styles.apple}
-                    src="/sectionFour/apple.svg"
-                    alt="apple"
-                    width={28}
-                    height={35}
-                    priority
-                  />
-                  <p>App Store</p>
-                </div>
               </div>
             </div>
           </div>
@@ -283,6 +347,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+
         <section className={styles.sectionSix}>
           <div className={styles.container_sectionSix}>
             <div className={styles.title_sectionSix}>
@@ -447,122 +512,38 @@ export default function Home() {
         </section>
         <section className={styles.sectionEight}>
           <div className={styles.container_sectionEight}>
-            <div className={styles.leftConatiner_sectionEight}>
-              <h2 className={playfairDisplay.className}>Connect with us</h2>
-              <h3>See what our valuable customers are saying</h3>
-              <h4>Arclif Technologies Pvt Ltd</h4>
-              <h5>Unit 3B, 3rd Floor ,Sahya Government Cyberpark, Calicut Kerala 673014</h5>
-              <span>
-                <h5>
-                  Email: infoarclif@gmail.com <br /> Phone: +91 978086363
-                </h5>
-              </span>
-              <button className={styles.contactButton_sectionEight}>
-                <p>Contact</p>
+            <h2 className={playfairDisplay.className}>
+              Join with Arclif Community to start finding Ideas & Professionals
+            </h2>
+            <div className={styles.buttonContainer_sectionEight}>
+              <div className={styles.googleButton_sectionSix}>
                 <Image
-                  className={styles.arrow_sectionEight}
-                  src="/sectionEight/contact.svg"
-                  alt="arrow"
-                  width={11}
-                  height={9}
+                  className={styles.googlePlay}
+                  src="/blackSection/googlePlay.svg"
+                  alt="image"
+                  width={25}
+                  height={27}
                   priority
                 />
-              </button>
-            </div>
-            <div className={styles.rightConatiner_sectionEight}>
-              <div className={styles.innerRightContainer_sectionEight}>
-                <h2 className={playfairDisplay.className}>Get free consultation </h2>
-                <h3>See what our valuable customers are saying</h3>
-                <div className={styles.formConatiner_sectionEight}>
-                  <div className={styles.inputConatiner_sectionEight}>
-                    <input placeholder="Name" />
-                    <input placeholder="Phone number" />
-                    <input placeholder="Email" />
-                    <input placeholder="Message" />
-                  </div>
-                  <button className={styles.sendButton_sectionEight}>
-                    <Image
-                      className={styles.gif1_sectionEight}
-                      src="/sectionEight/gif1.gif"
-                      alt="arrow"
-                      width={66}
-                      height={66}
-                      priority
-                    />
-                    <p>SEND NOW</p>
-                  </button>
-                </div>
+                Google Play
+              </div>
+              <div className={styles.appleButton_sectionSix}>
+                <Image
+                  className={styles.apple}
+                  src="/blackSection/apple.svg"
+                  alt="image"
+                  width={23}
+                  height={29}
+                  priority
+                />
+                App Store
               </div>
             </div>
           </div>
         </section>
-        <section className={styles.sectionNine}>
-          <div className={styles.container_sectionNine}>
-            <div className={styles.left_container_sectionNine}>
-              <Image
-                className={styles.logo_sectionNine}
-                src="/sectionNine/logo.png"
-                alt="logo"
-                width={113}
-                height={34}
-                priority
-              />
-              <h5>Arclif Technologies Pvt Ltd</h5>
-              <p>© Copyright Arclif 2022 All Right Reserved</p>
-              <Image
-                className={styles.qr_sectionNine}
-                src="/sectionNine/qr.svg"
-                alt="logo"
-                width={79}
-                height={79}
-                priority
-              />
-            </div>
-            <div className={styles.center_container_sectionNine}>
-              <ul>
-                <span>Company</span>
-                <li>About us</li>
-                <li>Careers</li>
-                <li>Contact Us</li>
-              </ul>
-              <ul>
-                <span>Social media</span>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>WhatsApp</li>
-                <li>Twitter</li>
-                <li>LinkedIn</li>
-                <li>YouTube</li>
-              </ul>
-              <ul>
-                <span>Links</span>
-                <li>Blog</li>
-                <li>FAQs</li>
-                <li>Terms</li>
-                <li>Privacy policy</li>
-              </ul>
-            </div>
-            <div className={styles.right_container_sectionNine}>
-              <h5>Subscribe Newsletter</h5>
-              <h6>Get updates of our products and software releases before anyone else.</h6>
-              <div className={styles.inputContainer_sectionNine}>
-                <input placeholder="Enter your email"></input>
-                <button className={styles.buttonSend_sectionNine}>
-                  <Image
-                    className={styles.arrow_sectionNine}
-                    src="/sectionNine/arrow.svg"
-                    alt="arrow"
-                    width={10}
-                    height={9}
-                    priority
-                  />
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Contact />
+        <Footer />
       </main>
-      <footer></footer>
     </>
   );
 }

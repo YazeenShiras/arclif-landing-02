@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from "react";
 
 export default function useWindowDimensions() {
@@ -22,6 +23,7 @@ export default function useWindowDimensions() {
       return () => window.removeEventListener("resize", handleResize);
     }
   }, [hasWindow]);
+
   useEffect(() => {
     if (windowDimensions.width >= 1024) {
       setMobile(false);

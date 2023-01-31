@@ -6,6 +6,9 @@ import { Playfair_Display } from "@next/font/google";
 import Header from "../components/Header";
 
 import styles from "./about.module.css";
+import Link from "next/link";
+import Footer from "../components/Footer";
+import Contact from "../components/Contact";
 
 const playfairDisplay = Playfair_Display({
   weight: "400",
@@ -45,7 +48,14 @@ export default function About() {
           <div className={styles.container_sectionTwo}>
             <div className={styles.cardContainer_sectionTwo}>
               <div className={styles.card_sectionTwo}>
-                <Image className={styles.userImage} src="/about/user1.png" alt="gif" width={98} height={98} priority />
+                <Image
+                  className={styles.userImage}
+                  src="/about/user1.png"
+                  alt="userImage"
+                  width={98}
+                  height={98}
+                  priority
+                />
                 <div className={styles.textCard_sectionTwoMain}>
                   <h4>John Sullivan</h4>
                   <h5>Chairman</h5>
@@ -66,6 +76,106 @@ export default function About() {
                 </div>
               </div>
             </div>
+            <div className={styles.cardContainer_sectionTwoMobile}>
+              <div className={styles.card_sectionTwoMobile}>
+                <Image
+                  className={styles.userImageMobile}
+                  src="/about/user1.png"
+                  alt="userImage"
+                  width={98}
+                  height={98}
+                  priority
+                />
+                <div className={styles.bottomContainer_profileCard}>
+                  <Image
+                    className={styles.arrowProfileCard}
+                    src="/about/mobile/leftArrow.svg"
+                    alt="arrow"
+                    width={8}
+                    height={5}
+                    priority
+                  />
+                  <div className={styles.textCard_sectionTwoMain}>
+                    <h4>John Sullivan</h4>
+                    <h5>Chairman</h5>
+                  </div>
+                  <Image
+                    className={styles.arrowProfileCard}
+                    src="/about/mobile/rightArrow.svg"
+                    alt="arrow"
+                    width={8}
+                    height={5}
+                    priority
+                  />
+                </div>
+              </div>
+
+              <div className={styles.card_sectionTwoMobile}>
+                <Image
+                  className={styles.userImageMobile}
+                  src="/about/user1.png"
+                  alt="userImage"
+                  width={98}
+                  height={98}
+                  priority
+                />
+                <div className={styles.bottomContainer_profileCard}>
+                  <Image
+                    className={styles.arrowProfileCard}
+                    src="/about/mobile/leftArrow.svg"
+                    alt="arrow"
+                    width={8}
+                    height={5}
+                    priority
+                  />
+                  <div className={styles.textCard_sectionTwoMain}>
+                    <h4>John Sullivan</h4>
+                    <h5>Chairman</h5>
+                  </div>
+                  <Image
+                    className={styles.arrowProfileCard}
+                    src="/about/mobile/rightArrow.svg"
+                    alt="arrow"
+                    width={8}
+                    height={5}
+                    priority
+                  />
+                </div>
+              </div>
+
+              <div className={styles.card_sectionTwoMobile}>
+                <Image
+                  className={styles.userImageMobile}
+                  src="/about/user1.png"
+                  alt="userImage"
+                  width={98}
+                  height={98}
+                  priority
+                />
+                <div className={styles.bottomContainer_profileCard}>
+                  <Image
+                    className={styles.arrowProfileCard}
+                    src="/about/mobile/leftArrow.svg"
+                    alt="arrow"
+                    width={8}
+                    height={5}
+                    priority
+                  />
+                  <div className={styles.textCard_sectionTwoMain}>
+                    <h4>John Sullivan</h4>
+                    <h5>Chairman</h5>
+                  </div>
+                  <Image
+                    className={styles.arrowProfileCard}
+                    src="/about/mobile/rightArrow.svg"
+                    alt="arrow"
+                    width={8}
+                    height={5}
+                    priority
+                  />
+                </div>
+              </div>
+            </div>
             <div className={styles.whatWeDo_sectionTwo}>
               <span></span>
               <h2 className={playfairDisplay.className}>What We Do</h2>
@@ -76,8 +186,6 @@ export default function About() {
                 you can generate a dummy text to test the final output .Create the best living spaces.
               </h3>
               <iframe
-                width="100%"
-                height="432"
                 src="https://www.youtube.com/embed/f4QVsOnWLwY?rel=0&controls=0&autoplay=1&"
                 title="YouTube video player"
                 frameborder="0"
@@ -101,25 +209,52 @@ export default function About() {
                   <img src="/about/img1.png" alt="" className={styles.img1_sectionTwo} />
                 </div>
               </div>
-              <div className={styles.cardsRow_sectionTwo}>
+              <div className={styles.cardsRow_sectionTwo2}>
                 <div className={styles.leftCardsRow_sectionTwo2}>
-                  <img src="/about/img1.png" alt="" className={styles.img2_sectionTwo} />
+                  <Link href="/">
+                    <div className={styles.clickHere_sectionTwo}>
+                      <p>Click here</p>
+                      <Image
+                        className={styles.gifClichHere}
+                        src="/about/gif1.gif"
+                        alt="gif"
+                        width={20}
+                        height={20}
+                        priority
+                      />
+                    </div>
+                  </Link>
+                  <img src="/about/img2.png" alt="" className={styles.img2_sectionTwo} />
                 </div>
                 <div className={styles.rightCardsRow_sectionTwo2}>
                   <span></span>
-                  <h2 className={playfairDisplay.className}>Our mission & vision</h2>
+                  <h2 className={playfairDisplay.className}>Our Services</h2>
                   <h3>
                     Create the best living spaces for our customers allowing them to fully immerse themselves in
                     designing the perfect living space for their needs, desires and lifestyle. Designing a website or a
-                    visual design can take a lot of time when you do not have the content ready. However, with a lorem
-                    ipsum generator.
+                    visual design can take a lot of time when you do not have the contend. , you can generate a dummy
+                    text to test the final output.
                   </h3>
+                  <div className={styles.arclif_service}>Arclif Service</div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section className={styles.sectionThree}></section>
+        <section className={styles.sectionThree}>
+          <div className={styles.container_sectionThree}>
+            <Image className={styles.callImage} src="/about/img3.svg" alt="img" width={96} height={102} priority />
+            <h2 className={playfairDisplay.className}>Let&apos;s talks something about</h2>
+            <h3>
+              Create the best living spaces for our customers allowing them to fully immerse themselves in designing the
+              perfect living space for their needs, desires and lifestyle. Designing a website or a visual design can
+              take a lot of tim
+            </h3>
+            <div className={styles.call_now}>Call now</div>
+          </div>
+        </section>
+        <Contact />
+        <Footer />
       </main>
     </>
   );

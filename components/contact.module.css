@@ -1,0 +1,238 @@
+.sectionEight {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, #6c0e30, #a83d3d);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_sectionEight {
+  width: 100%;
+  height: 100%;
+  max-width: 1530px;
+  padding: 0px 7vw;
+  display: flex;
+}
+
+.leftConatiner_sectionEight {
+  margin: 96px 0;
+  width: 50%;
+  border-right: 1px solid #8e4d4d;
+}
+
+.leftConatiner_sectionEight > h2 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.leftConatiner_sectionEight > h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.leftConatiner_sectionEight > h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 45px;
+}
+
+.leftConatiner_sectionEight > h5 {
+  font-size: 16px;
+  font-weight: lighter;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.leftConatiner_sectionEight > span > h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.contactButton_sectionEight {
+  width: 119px;
+  height: 39px;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactButton_sectionEight > p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.arrow_sectionEight {
+  margin-left: 19px;
+}
+
+.rightConatiner_sectionEight {
+  margin: 96px 0;
+  width: 50%;
+}
+
+.innerRightContainer_sectionEight {
+  margin-left: 115px;
+}
+
+.innerRightContainer_sectionEight > h2 {
+  font-size: 35px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.innerRightContainer_sectionEight > h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.formConatiner_sectionEight {
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.inputConatiner_sectionEight {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputConatiner_sectionEight > input {
+  background: transparent;
+  border-radius: 20px;
+  border: 1px solid #ffffff29;
+  margin-top: 21px;
+  height: 39px;
+  padding: 0px 23px;
+  outline: none;
+  color: #ffffff;
+  font-family: inherit;
+  width: 341px;
+}
+
+.inputConatiner_sectionEight > input::placeholder {
+  color: #ffffffa8;
+}
+
+.sendButton_sectionEight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 59px;
+}
+
+.gif1_sectionEight {
+  border-radius: 50%;
+}
+
+.sendButton_sectionEight > p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 4px;
+  color: #ffffffd1;
+}
+
+@media only screen and (max-width: 1400px) {
+  .container_sectionEight {
+    flex-direction: column-reverse;
+  }
+  .rightConatiner_sectionEight {
+    margin: 64px 0;
+    width: 100%;
+  }
+  .innerRightContainer_sectionEight {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .innerRightContainer_sectionEight > h2 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .innerRightContainer_sectionEight > h3 {
+    font-size: 14px;
+    margin-top: 3px;
+  }
+  .formConatiner_sectionEight {
+    margin-top: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .inputConatiner_sectionEight {
+    width: 100%;
+    max-width: 700px;
+  }
+  .inputConatiner_sectionEight > input {
+    width: 100%;
+    margin-top: 11px;
+  }
+  .sendButton_sectionEight {
+    margin-left: 0px;
+    margin-top: 11px;
+    width: 100%;
+    background-color: #ffffff;
+    height: 39px;
+    border-radius: 20px;
+    cursor: pointer;
+    max-width: 700px;
+  }
+  .gif1_sectionEight {
+    display: none;
+  }
+  .sendButton_sectionEight > p {
+    color: #9b3131;
+  }
+  .leftConatiner_sectionEight {
+    margin: 0;
+    width: 100%;
+    border-right: none;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftConatiner_sectionEight > h2 {
+    font-size: 25px;
+  }
+  .leftConatiner_sectionEight > h3 {
+    font-size: 14px;
+    margin-top: 7px;
+  }
+  .leftConatiner_sectionEight > h4 {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  .leftConatiner_sectionEight > h5 {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .leftConatiner_sectionEight > span > h5 {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .contactButton_sectionEight {
+    margin-top: 19px;
+  }
+}

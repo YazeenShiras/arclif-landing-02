@@ -1,0 +1,266 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 68px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.sectionOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.container_sectionOne {
+  height: 100%;
+  width: 100%;
+  max-width: 1530px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 7vw;
+}
+
+.title_sectionOne {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title_sectionOne > h2 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 13px;
+}
+
+.title_sectionOne > h3 {
+  color: #6b6b6b;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 702px;
+  line-height: 31px;
+}
+
+.title_sectionOne > span {
+  background-color: #eeeeee;
+  min-height: 1px;
+  min-width: 1021px;
+  margin-top: 31px;
+}
+
+.container_sectionOne > p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #646464;
+  margin-top: 29px;
+}
+
+.inputContainer_sectionOne {
+  margin-top: 19px;
+  display: flex;
+  align-items: center;
+}
+
+.inputContainer_sectionOne > input {
+  width: 474px;
+  height: 51px;
+  background-color: #f2f2f2;
+  border-radius: 5px 0px 0px 5px;
+  padding: 0 26px;
+  margin-right: 7px;
+}
+
+.inputContainer_sectionOne > button {
+  height: 51px;
+  width: 147px;
+  background: #a83d3d;
+  border-radius: 0px 5px 5px 0px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardContainer_sectionOne {
+  margin-top: 82px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card_sectionOne {
+  width: 401px;
+}
+
+.cardImage_sectionOne {
+  border-radius: 5px;
+  height: 164px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card_sectionOne > h5 {
+  font-weight: 300;
+  font-style: 14px;
+  color: #505050;
+  margin-top: 24px;
+}
+
+.card_sectionOne > h4 {
+  font-weight: 400;
+  font-style: 16px;
+  color: #232323;
+  margin-top: 5px;
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pagination_sectionOne {
+  display: flex;
+  align-items: center;
+  margin: 67px 0;
+}
+
+.pagination_sectionOne > span {
+  height: 37px;
+  width: 42px;
+  border: 1px solid #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 1px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 3px;
+}
+
+.paginationNoActive {
+  color: #7c7c7c;
+}
+
+.paginationActive {
+  border: 1px solid #b44747;
+  background-color: #b44747;
+  color: #ffffff;
+}
+
+.pageArrow_sectionOne {
+  cursor: pointer;
+}
+
+.editContainer_sectionOne {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.editIcon {
+  height: 15px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.editContainer_sectionOne > p {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1500px) {
+  .cardContainer_sectionOne {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .cardContainer_sectionOne {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card_sectionOne {
+    width: 100%;
+  }
+  .inputContainer_sectionOne {
+    width: 100%;
+  }
+  .inputContainer_sectionOne > input {
+    width: 100%;
+  }
+  .container_sectionOne > p {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .title_sectionOne {
+    width: 100%;
+    margin-top: 34px;
+  }
+  .title_sectionOne > h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .title_sectionOne > h3 {
+    font-size: 14px;
+    max-width: 100%;
+    line-height: 25px;
+  }
+  .title_sectionOne > span {
+    min-width: 100%;
+    margin-top: 34px;
+  }
+  .container_sectionOne > p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 28px;
+  }
+  .inputContainer_sectionOne {
+    margin-top: 27px;
+    height: 44px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .inputContainer_sectionOne > input {
+    width: 100%;
+    height: 100%;
+    padding: 0 17px;
+    font-size: 14px;
+    margin-right: 4px;
+  }
+  .inputContainer_sectionOne > button {
+    height: 100%;
+    width: 123px;
+    background: #a83d3d;
+    border-radius: 0px 5px 5px 0px;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  .cardContainer_sectionOne {
+    margin-top: 63px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 41px;
+  }
+  .card_sectionOne {
+    width: 100%;
+  }
+  .card_sectionOne > h4 {
+    font-style: 14px;
+    line-height: 23px;
+    height: 47px;
+  }
+}

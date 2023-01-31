@@ -1,0 +1,77 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.sectionOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.container_sectionOne {
+  height: 100%;
+  width: 100%;
+  max-width: 1530px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3vw 7vw;
+}
+
+.blogcard > h5 {
+  font-size: 13px;
+  color: #2c2c2c;
+}
+
+.blogcard > h3 {
+  font-size: 25px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.blogcard > img {
+  width: 100%;
+  height: 300px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.editButton {
+  height: 40px;
+  width: 100px;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  color: #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.blogcard > input {
+  height: 40px;
+  width: 100%;
+  margin: 20px 0;
+  border: 1px solid #4c4c4c;
+  padding: 0 10px;
+  font-family: inherit;
+}
+
+.blogcard > textarea {
+  height: 150px;
+  width: 80vw;
+  border: 1px solid #4c4c4c;
+  margin-top: 10px;
+  padding: 10px;
+}
