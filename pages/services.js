@@ -35,8 +35,9 @@ const Services = () => {
               <h2 className={playfairDisplay.className}>Our Services</h2>
               <span></span>
               <h3>
-                Create the best living spaces for our customers allowing them to fully immerse themselves in designing
-                the perfect living space for their needs, desires and lifestyle.
+                Arclif is India’s leading architectural service platform with a vision of connecting millions of people
+                who are actively engaged in the construction industry.we welcome you to enjoy our services designed to
+                enhance your experience in the process of creating your dream home.
               </h3>
             </div>
             <div className={styles.cardContainer_sectionOne}>
@@ -49,8 +50,11 @@ const Services = () => {
                   height={69}
                   priority
                 />
-                <h4 className={playfairDisplay.className}>Residence</h4>
-                <p>Create the best living spaces for our customers allowing them to fully immerse themselves.</p>
+                <h4 className={playfairDisplay.className}>Architectural design </h4>
+                <p>
+                  Choose the best architect of your choice from our wide portfolio of experienced and talented
+                  architects across India
+                </p>
               </div>
               <div className={styles.card_sectionOne}>
                 <Image
@@ -61,8 +65,11 @@ const Services = () => {
                   height={69}
                   priority
                 />
-                <h4 className={playfairDisplay.className}>Residence</h4>
-                <p>Create the best living spaces for our customers allowing them to fully immerse themselves.</p>
+                <h4 className={playfairDisplay.className}>Interior Design </h4>
+                <p>
+                  Need a makeover to your apartment or office, we have unlimited options for you to choose the best
+                  interior designer
+                </p>
               </div>
               <div className={styles.card_sectionOne}>
                 <Image
@@ -73,8 +80,11 @@ const Services = () => {
                   height={69}
                   priority
                 />
-                <h4 className={playfairDisplay.className}>Residence</h4>
-                <p>Create the best living spaces for our customers allowing them to fully immerse themselves.</p>
+                <h4 className={playfairDisplay.className}>Master Planning </h4>
+                <p>
+                  We help you to fulfill to accomplish your dream project by providing the most experienced and capable
+                  architects and engineers.
+                </p>
               </div>
               <div className={styles.card_sectionOne}>
                 <Image
@@ -85,8 +95,11 @@ const Services = () => {
                   height={69}
                   priority
                 />
-                <h4 className={playfairDisplay.className}>Residence</h4>
-                <p>Create the best living spaces for our customers allowing them to fully immerse themselves.</p>
+                <h4 className={playfairDisplay.className}>Landscape architecture </h4>
+                <p>
+                  A thing of beauty is make your space more vibrant by adding some green space to it. We have immense
+                  experience in landscapings.
+                </p>
               </div>
               <div className={styles.card_sectionOne}>
                 <Image
@@ -97,8 +110,11 @@ const Services = () => {
                   height={69}
                   priority
                 />
-                <h4 className={playfairDisplay.className}>Residence</h4>
-                <p>Create the best living spaces for our customers allowing them to fully immerse themselves.</p>
+                <h4 className={playfairDisplay.className}>Renovations and home improvement</h4>
+                <p>
+                  we guarantee the best home makeover and renovation services with numerous successful project
+                  deliveries
+                </p>
               </div>
               <div className={styles.card_sectionOne}>
                 <Image
@@ -109,8 +125,10 @@ const Services = () => {
                   height={69}
                   priority
                 />
-                <h4 className={playfairDisplay.className}>Residence</h4>
-                <p>Create the best living spaces for our customers allowing them to fully immerse themselves.</p>
+                <h4 className={playfairDisplay.className}>Project Management</h4>
+                <p>
+                  we have excellent systems to ensure smooth completion of your dream project -on time and within budget
+                </p>
               </div>
             </div>
           </div>

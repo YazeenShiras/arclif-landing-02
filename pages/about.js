@@ -39,8 +39,9 @@ export default function About() {
               <span></span>
             </div>
             <h3>
-              Create the best living spaces for our customers allowing them to fully immerse themselves in designing the
-              perfect living space for their needs, desires and lifestyle.
+              Arclif was founded in 2016 with a vision of transforming the architecture and construction industry by
+              enabling technology as the catalyst.we are a group of dreamers including architects, engineers and
+              technocrats aiming to build the best architecture platform possible.
             </h3>
           </div>
         </section>
