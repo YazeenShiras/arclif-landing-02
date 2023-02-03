@@ -41,7 +41,7 @@ export default function About() {
             <h3>
               Arclif was founded in 2016 with a vision of transforming the architecture and construction industry by
               enabling technology as the catalyst.we are a group of dreamers including architects, engineers and
-              technocrats aiming to build the best architecture platform possible.
+              technocrats aiming to build the best architecture platform possible..
             </h3>
           </div>
         </section>
